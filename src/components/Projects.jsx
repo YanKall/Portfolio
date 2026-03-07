@@ -1,21 +1,17 @@
+import { Link } from 'react-router-dom';
+
 const projectData = [
     {
-        title: 'Movie Review Website',
+        title: 'CineTrack',
         description:
-            'A responsive website that displays movie information and allows users to explore movie content with a clean interface.',
-        link: '#',
+            'A movie web application that showcases API integration, structured frontend design, and practical web development skills.',
+        path: '/cinetrack',
     },
     {
-        title: 'Web API Development Project',
+        title: 'CareConnect',
         description:
-            'A backend-focused project involving API endpoints, data handling, and integration with frontend features.',
-        link: '#',
-    },
-    {
-        title: 'Mobile App Project',
-        description:
-            'A practical application project focused on solving user problems with a simple and user-friendly design.',
-        link: '#',
+            'A healthcare-focused mobile application designed to improve access to clinic-related information and location-based services.',
+        path: '/careconnect',
     },
 ];
 
@@ -30,9 +26,7 @@ function Projects() {
                         <div className="project-card" key={index}>
                             <h3>{project.title}</h3>
                             <p>{project.description}</p>
-                            <a href={project.link} target="_blank" rel="noreferrer">
-                                View Project
-                            </a>
+                            <Link to={project.path}>View Project</Link>
                         </div>
                     ))}
                 </div>
