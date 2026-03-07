@@ -1,7 +1,31 @@
+import { useLocation, useNavigate } from 'react-router-dom';
+
 function Hero() {
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const goToSection = (sectionId) => {
+        if (location.pathname !== '/') {
+            navigate('/');
+
+            setTimeout(() => {
+                const section = document.getElementById(sectionId);
+                if (section) {
+                    section.scrollIntoView({ behavior: 'smooth' });
+                }
+            }, 100);
+        } else {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    };
+
     return (
         <section className="hero">
             <div className="container hero-content">
+                <p className="hero-tag">React Portfolio</p>
                 <h2>
                     Hi, I’m <span>Yan Kai</span>
                 </h2>
@@ -11,8 +35,21 @@ function Hero() {
                 </p>
 
                 <div className="hero-buttons">
-                    <a href="#projects" className="btn">View Projects</a>
-                    <a href="#contact" className="btn btn-outline">Contact Me</a>
+                    <button
+                        type="button"
+                        className="btn"
+                        onClick={() => goToSection('projects')}
+                    >
+                        View Projects
+                    </button>
+
+                    <button
+                        type="button"
+                        className="btn btn-outline"
+                        onClick={() => goToSection('contact')}
+                    >
+                        Contact Me
+                    </button>
                 </div>
             </div>
         </section>
