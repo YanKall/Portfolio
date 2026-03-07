@@ -25,7 +25,6 @@ function Hero() {
     return (
         <section className="hero">
             <div className="container hero-content">
-                <p className="hero-tag">React Portfolio</p>
                 <h2>
                     Hi, I’m <span>Yan Kai</span>
                 </h2>

@@ -8,9 +8,34 @@ function Contact() {
                 </p>
 
                 <div className="contact-box">
-                    <p><strong>Email:</strong> your-email@example.com</p>
-                    <p><strong>GitHub:</strong> your-github-link</p>
-                    <p><strong>LinkedIn:</strong> your-linkedin-link</p>
+                    <p>
+                        <strong>Email:</strong>{" "}
+                        <a href="mailto:hoeyankai@gmail.com">
+                            hoeyankai@gmail.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>GitHub:</strong>{" "}
+                        <a
+                            href="https://github.com/YanKall"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            github.com/YanKall
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>LinkedIn:</strong>{" "}
+                        <a
+                            href="https://www.linkedin.com/in/yan-kai-hoe/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            linkedin.com/in/yan-kai-hoe
+                        </a>
+                    </p>
                 </div>
             </div>
         </section>
