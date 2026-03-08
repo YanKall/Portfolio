@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom';
+import cineHome from '../assets/CineTrack/homepage.png';
+import cineMovies from '../assets/CineTrack/movies.png';
+import movieDetails from '../assets/CineTrack/movie_details.png';
 
 function CineTrack() {
     return (
@@ -19,6 +22,11 @@ function CineTrack() {
 
                 <div className="project-section">
                     <h2>Project Overview</h2>
+                    <img
+                        src={cineHome}
+                        alt="CineTrack Homepage"
+                        className="project-image"
+                    />
                     <p>
                         The goal of CineTrack was to create a movie-based web application that
                         allows users to browse and view movie information through an interactive
@@ -36,6 +44,22 @@ function CineTrack() {
                         <li>API-based data retrieval and display</li>
                         <li>Clean navigation and organized layout</li>
                     </ul>
+                </div>
+
+                <div className="project-section">
+                    <h2>Application Interface</h2>
+
+                    <img
+                        src={cineMovies}
+                        alt="CineTrack movies"
+                        className="project-image"
+                    />
+
+                    <img
+                        src={movieDetails}
+                        alt="Movie details"
+                        className="project-image"
+                    />
                 </div>
 
                 <div className="project-section">

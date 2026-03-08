@@ -1,4 +1,9 @@
 import { Link } from 'react-router-dom';
+import homepage from '../assets/CareConnect/homepage.png';
+import medication from '../assets/CareConnect/medication.png';
+import exercises from '../assets/CareConnect/exercises.png';
+import clinics from '../assets/CareConnect/clinics.png';
+import profile from '../assets/CareConnect/profile.png';
 
 function CareConnect() {
     return (
@@ -19,6 +24,11 @@ function CareConnect() {
 
                 <div className="project-section">
                     <h2>Project Overview</h2>
+                    <img
+                        src={homepage}
+                        alt="CareConnect Homepage"
+                        className="mobile-hero-image"
+                    />
                     <p>
                         The aim of CareConnect was to create a mobile application that makes
                         healthcare services more accessible and user-friendly. The project explored
@@ -36,6 +46,36 @@ function CareConnect() {
                         <li>User-friendly mobile interface</li>
                         <li>Practical design focused on accessibility and convenience</li>
                     </ul>
+                </div>
+
+                <div className="project-section">
+                    <h2>Application Interface</h2>
+
+                    <div className="mobile-gallery">
+                        <img
+                            src={medication}
+                            alt="Medication Page"
+                            className="mobile-screenshot"
+                        />
+
+                        <img
+                            src={exercises}
+                            alt="Exercises Page"
+                            className="mobile-screenshot"
+                        />
+
+                        <img
+                            src={clinics}
+                            alt="Clinics Page"
+                            className="mobile-screenshot"
+                        />
+
+                        <img
+                            src={profile}
+                            alt="Profile Page"
+                            className="mobile-screenshot"
+                        />
+                    </div>
                 </div>
 
                 <div className="project-section">
