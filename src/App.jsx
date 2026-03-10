@@ -3,12 +3,15 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
+import AllProjects from './pages/AllProjects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import CineTrack from './pages/CineTrack';
 import CareConnect from './pages/CareConnect';
 import DiscoverSG from './pages/DiscoverSG';
-import AllProjects from './pages/AllProjects';
+import SnakeGame from './pages/SnakeGame';
+import HotelWebsite from './pages/HotelWebsite';
+import WebDesign from './pages/WebDesign';
 
 function Home() {
   return (
@@ -32,6 +35,9 @@ function App() {
         <Route path="/careconnect" element={<CareConnect />} />
         <Route path="/discoversg" element={<DiscoverSG />} />
         <Route path="/projects" element={<AllProjects />} />
+        <Route path="/snakegame" element={<SnakeGame />} />
+        <Route path="/hotelwebsite" element={<HotelWebsite />} />
+        <Route path="/webdesign" element={<WebDesign />} />
       </Routes>
     </>
   );

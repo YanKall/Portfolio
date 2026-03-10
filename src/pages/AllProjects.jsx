@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom';
 import cineTrackImage from '../assets/CineTrack/homepage.png';
 import careConnectImage from '../assets/CareConnect/homepage.png';
 import discoverSGImage from '../assets/DiscoverSG/homepage.png';
+import snakeGameImage from '../assets/SnakeGame/game.png';
+import hotelWebsiteImage from '../assets/HotelWebsite/homepage.png';
+import webDesignImage from '../assets/WebDesign/homepage.png';
 
 const projectData = [
     {
@@ -24,6 +27,27 @@ const projectData = [
             'A full-stack travel recommendation platform that helps users discover and book activities across Singapore based on interests, budget, and preferred locations.',
         path: '/discoversg',
         image: discoverSGImage,
+    },
+    {
+        title: 'Snake Game',
+        description:
+            'A desktop implementation of the classic Snake game built in C# with difficulty levels and a scoreboard system.',
+        path: '/snakegame',
+        image: snakeGameImage,
+    },
+    {
+        title: 'Hotel Website',
+        description:
+            'A responsive hotel website developed using HTML, CSS, JavaScript/jQuery, PHP, and MySQL.',
+        path: '/hotelwebsite',
+        image: hotelWebsiteImage,
+    },
+    {
+        title: 'Food Stall Web Design',
+        description:
+            'A web design project focused on creating an interface for a food stall website, featuring menu showcases, ordering options, and delivery process visualization.',
+        path: '/webdesign',
+        image: webDesignImage,
     },
 ];
 

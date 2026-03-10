@@ -4,7 +4,9 @@ function DiscoverSG() {
   return (
     <section className="project-page">
       <div className="container">
-        <Link to="/" className="back-link">← Back to Portfolio</Link>
+        <Link to="/projects" className="back-link">
+          ← Back to Projects
+        </Link>
 
         <div className="project-header">
           <p className="project-tag">Full-Stack Web Development Project</p>
