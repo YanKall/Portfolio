@@ -7,6 +7,8 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import CineTrack from './pages/CineTrack';
 import CareConnect from './pages/CareConnect';
+import DiscoverSG from './pages/DiscoverSG';
+import AllProjects from './pages/AllProjects';
 
 function Home() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/cinetrack" element={<CineTrack />} />
         <Route path="/careconnect" element={<CareConnect />} />
+        <Route path="/discoversg" element={<DiscoverSG />} />
+        <Route path="/projects" element={<AllProjects />} />
       </Routes>
     </>
   );

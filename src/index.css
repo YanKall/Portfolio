@@ -373,6 +373,20 @@ a {
     inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
+.projects-button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.project-video {
+  width: 100%;
+  max-width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  margin-top: 1.5rem;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   .navbar {

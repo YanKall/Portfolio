@@ -42,6 +42,13 @@ function Projects() {
                         </div>
                     ))}
                 </div>
+
+                <div className="projects-button">
+                    <Link to="/projects" className="btn">
+                        View All Projects
+                    </Link>
+                </div>
+
             </div>
         </section>
     );
