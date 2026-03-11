@@ -387,6 +387,18 @@ a {
   margin-top: 1.5rem;
 }
 
+.resume-btn {
+    border: 1px solid #333;
+    padding: 6px 14px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.resume-btn:hover {
+    background-color: #333;
+    color: white;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   .navbar {

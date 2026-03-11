@@ -33,20 +33,33 @@ function Navbar() {
                             About
                         </button>
                     </li>
+                    
                     <li>
                         <button type="button" className="nav-btn" onClick={() => goToSection('projects')}>
                             Projects
                         </button>
                     </li>
+
                     <li>
                         <button type="button" className="nav-btn" onClick={() => goToSection('skills')}>
                             Skills
                         </button>
                     </li>
+
                     <li>
                         <button type="button" className="nav-btn" onClick={() => goToSection('contact')}>
                             Contact
                         </button>
+                    </li>
+
+                    <li>
+                        <a
+                            href={`${import.meta.env.BASE_URL}YanKai_Resume.pdf`}
+                            download
+                            className="nav-btn resume-btn"
+                        >
+                            Resume
+                        </a>
                     </li>
                 </ul>
             </nav>

@@ -5,6 +5,7 @@ import discoverSGImage from '../assets/DiscoverSG/homepage.png';
 import snakeGameImage from '../assets/SnakeGame/game.png';
 import hotelWebsiteImage from '../assets/HotelWebsite/homepage.png';
 import webDesignImage from '../assets/WebDesign/homepage.png';
+import pythonAudio from "../assets/PythonAudio/overview.png";
 
 const projectData = [
     {
@@ -48,6 +49,13 @@ const projectData = [
             'A web design project focused on creating an interface for a food stall website, featuring menu showcases, ordering options, and delivery process visualization.',
         path: '/webdesign',
         image: webDesignImage,
+    },
+    {
+        title: "Speech Pattern Analysis",
+        description:
+            "A Python machine learning project that analyses speech patterns to explore potential indicators of dementia.",
+        path: "/pythonaudio",
+        image: pythonAudio
     },
 ];
 

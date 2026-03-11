@@ -49,6 +49,14 @@ function Hero() {
                     >
                         Contact Me
                     </button>
+
+                    <a
+                        href="/Portfolio/YanKai_Resume.pdf"
+                        download
+                        className="btn btn-outline"
+                    >
+                        Download Resume
+                    </a>
                 </div>
             </div>
         </section>
