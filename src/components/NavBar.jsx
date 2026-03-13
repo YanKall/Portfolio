@@ -35,14 +35,14 @@ function Navbar() {
                     </li>
                     
                     <li>
-                        <button type="button" className="nav-btn" onClick={() => goToSection('projects')}>
-                            Projects
+                        <button type="button" className="nav-btn" onClick={() => goToSection('skills')}>
+                            Skills
                         </button>
                     </li>
 
                     <li>
-                        <button type="button" className="nav-btn" onClick={() => goToSection('skills')}>
-                            Skills
+                        <button type="button" className="nav-btn" onClick={() => goToSection('projects')}>
+                            Projects
                         </button>
                     </li>
 

@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import AllProjects from './pages/AllProjects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import ScrollToTop from './components/ScrollToTop';
 import CineTrack from './pages/CineTrack';
 import CareConnect from './pages/CareConnect';
 import DiscoverSG from './pages/DiscoverSG';
@@ -19,9 +20,8 @@ function Home() {
     <>
       <Hero />
       <About />
-      <Projects />
       <Skills />
-      <Contact />
+      <Projects />
     </>
   );
 }
@@ -30,6 +30,8 @@ function App() {
   return (
     <>
       <Navbar />
+      <ScrollToTop />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<AllProjects />} />
@@ -41,6 +43,8 @@ function App() {
         <Route path="/webdesign" element={<WebDesign />} />
         <Route path="/pythonaudio" element={<PythonAudio />} />
       </Routes>
+
+      <Contact />
     </>
   );
 }
