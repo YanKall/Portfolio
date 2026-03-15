@@ -221,6 +221,68 @@ a {
   color: #e2e8f0;
 }
 
+/* Search Bar */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 25px;
+  max-width: 400px;
+  margin: 0 auto 30px auto;
+}
+
+.search-bar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  flex: 1;
+  font-size: 14px;
+}
+
+.search-bar input::placeholder {
+  color: #888;
+}
+
+.search-icon {
+  margin-right: 8px;
+  font-size: 14px;
+  color: #888;
+}
+
+/* Project Count */
+.project-count{
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* project filter */
+.project-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.project-filters button {
+  background: #111;
+  border: 1px solid #333;
+  color: white;
+  margin: 5px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.project-filters button:hover {
+  background: #333;
+}
+
 /* Project detail pages */
 .project-page {
   min-height: 100vh;
@@ -388,15 +450,15 @@ a {
 }
 
 .resume-btn {
-    border: 1px solid #333;
-    padding: 6px 14px;
-    border-radius: 6px;
-    transition: all 0.2s ease;
+  border: 1px solid #333;
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
 }
 
 .resume-btn:hover {
-    background-color: #333;
-    color: white;
+  background-color: #333;
+  color: white;
 }
 
 /* Mobile */
