@@ -10,7 +10,10 @@ function Contact() {
                 <div className="contact-box">
                     <p>
                         <strong>Email:</strong>{" "}
-                        <a href="mailto:hoeyankai@gmail.com">
+                        <a 
+                            href="mailto:hoeyankai@gmail.com"
+                            className="link"
+                        >
                             hoeyankai@gmail.com
                         </a>
                     </p>
@@ -21,6 +24,7 @@ function Contact() {
                             href="https://github.com/YanKall"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="link"
                         >
                             github.com/YanKall
                         </a>
@@ -32,6 +36,7 @@ function Contact() {
                             href="https://www.linkedin.com/in/yan-kai-hoe/"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="link"
                         >
                             linkedin.com/in/yan-kai-hoe
                         </a>
